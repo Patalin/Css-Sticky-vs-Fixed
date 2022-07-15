@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  background: #f2eee3;
+}
+
+.example {
+  width: 100%;
+}
+
+.content {
+  background: #cdcac6;
+  height: 300px;
+  margin: 1em;
+}
+
+.content.one {
+  height: 100px;
+}
+
+.box {
+  width: 300px;
+  height: 100px;
+  background: #dd9933;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.fixed {
+  position: fixed;
+  top: 24px;
+  left: 24px;
+}
+
+.sticky {
+  position: sticky;
+    margin: 16px;
+  top: 25px;
+}
